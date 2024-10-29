@@ -1,19 +1,18 @@
 package Polimorfisme;
 
-public class Persegi {
-    public String sisi;
+public class Persegi extends BangunDatar{
+    private double sisi;
 
-    public Persegi(String sisi) {
+    public Persegi(final double sisi){
         this.sisi = sisi;
     }
-
     @Override
-    public double luas() {
+    public double luas(){
         return sisi * sisi;
     }
 
     @Override
-    public double keliling() {
+    public double keliling(){
         return 4 * sisi;
     }
 }
