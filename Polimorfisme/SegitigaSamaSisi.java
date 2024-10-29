@@ -9,11 +9,11 @@ public class SegitigaSamaSisi extends BangunDatar {
 
     @Override
     public double luas() {
-        return (Math.sqrt(3) / 4) * sisi * sisi; // Rumus luas segitiga sama sisi
+        return (Math.sqrt(3) / 4) * sisi * sisi;
     }
 
     @Override
     public double keliling() {
-        return 3 * sisi; // Rumus keliling segitiga sama sisi
+        return 3 * sisi;
     }
 }
